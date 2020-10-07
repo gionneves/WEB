@@ -26,11 +26,11 @@ p {
 }
 
 .Pos {
-    animation: color-pos 2s linear;
+    animation: color-pos 1.5s linear;
 }
 
 .Neg {
-    animation: color-neg 2s linear;
+    animation: color-neg 1.5s linear;
 }
 
 @keyframes color-pos {

@@ -89,6 +89,23 @@ function getTextFromInput() {
             document.getElementById("tQuatro").classList.add("HoverPos");
             break;
             
+        case tel[3]:
+            document.getElementById("zUm").disabled = false;
+            document.getElementById("zDois").disabled = false;
+            document.getElementById("zTres").disabled = false;
+            document.getElementById("zQuatro").disabled = true;
+            
+            document.getElementById("tUm").classList.add("Pos");
+            document.getElementById("tDois").classList.add("Pos");
+            document.getElementById("tTres").classList.add("Pos");
+            document.getElementById("tQuatro").classList.add("Neg");
+            
+            document.getElementById("tUm").classList.add("HoverPos");
+            document.getElementById("tDois").classList.add("HoverPos");
+            document.getElementById("tTres").classList.add("HoverPos");
+            document.getElementById("tQuatro").classList.add("HoverNeg");
+            break;
+            
     }
     
 }
