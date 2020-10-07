@@ -23,6 +23,11 @@ function clearClasses() {
     document.getElementById("tTres").classList.remove("Neg");
     document.getElementById("tQuatro").classList.remove("Neg");
     
+    document.getElementById("zUm").checked = false;
+    document.getElementById("zDois").checked = false;
+    document.getElementById("zTres").checked = false;
+    document.getElementById("zQuatro").checked = false;
+    
 }
 
 function getTextFromInput() {
