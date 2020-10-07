@@ -1,0 +1,48 @@
+div {
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    align-content: center;
+    margin-left: 60px
+}
+
+p {
+    margin: 10px 0px 10px 5px;
+    text-emphasis-color: red;
+     
+}
+
+.HoverPos:hover {
+    color: lime;
+}
+
+.HoverNeg:hover {
+    color: red;
+}
+
+.Pos {
+    animation: color-pos 2s linear;
+}
+
+.Neg {
+    animation: color-neg 2s linear;
+}
+
+@keyframes color-pos {
+    0% {color: black}
+    50% {color: lime}
+    100% {color: black}
+    
+}
+
+@keyframes color-neg {
+    0% {color: black}
+    50% {color: red}
+    100% {color: black}
+    
+}
