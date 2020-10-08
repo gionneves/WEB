@@ -1,35 +1,56 @@
 <!DOCTIPE HTML>
-<html>
-    
+    <meta charset="utf-8">
+    <html>
+    <title>Cosulta de preço</title>
     <link rel="stylesheet" href="css/estilo.css">
-    
+
     <head>
-        <h1>TESTE</h1>
-        
         <div>
-            <input id="phones"; autocomplete="mobile"; placeholder="Modelo do Telefone";> 
-            <p>
-                <button onclick="getTextFromInput()">Verificar.</button>
-            </p>
+            <img src="img/lgGG00.png" ; class="Logo" ;>
+            <h1>Consulta de preço.</h1>
         </div>
     </head>
+
     <body>
+
+        
+        
         <div>
-        <p id="tUm";>
-            <input type="checkbox"; id="zUm";> <a>Tela</a>
-        </p>
-        <p id="tDois";>
-            <input type="checkbox"; id="zDois"> <a>Bateria</a>
-        </p>
-        <p id="tTres";>
-            <input type="checkbox"; id="zTres"> <a>Botão home</a>
-        </p>
-        <p id="tQuatro";>
-            <input type="checkbox"; id="zQuatro"> <a>Placa</a>
-        </p>
+            
         </div>
         
-    <script src="js/main.js"></script>
-    
+        <div class="borda" ; class="HoverPos">
+            <input id="phones" ; autocomplete="mobile" ; placeholder="Modelo do Telefone" ;>
+            <div>
+                <button onclick="getTextFromInput()">Verificar.</button>
+            </div>
+        </div>
+        
+        
+        <form class="borda">
+            <div id="tUm" ;>
+                <input type="checkbox" ; id="zUm" ;>Tela.
+            </div>
+            <div id="tDois" ;>
+                <input type="checkbox" ; id="zDois">Bateria.
+            </div>
+            <div id="tTres" ;>
+                <input type="checkbox" ; id="zTres">Botão home.
+            </div>
+            <div id="tQuatro" ;>
+                <input type="checkbox" ; id="zQuatro">Câmera.
+            </div>
+            <div id="tCinco" ;>
+                <input type="checkbox" ; id="zCinco">Placa.
+            </div>
+            <div>
+                <h2 id="total" ;>R$ 0</h2>
+
+            </div>
+        </form>
+
+        <script src="js/main.js"></script>
+
     </body>
-</html>
+    <!- v. SNAPSHOT 0.4 -!>
+    </html>

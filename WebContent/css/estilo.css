@@ -1,28 +1,54 @@
-div {
-    border-color: black;
-    border-style: solid;
-    border-width: thin;
+body {
+    background-repeat: repeat;
+    background-image: url(./img/backGG01.png);
+    margin-right: 50%;
+}
+
+.borda {
+    border: 1px solid;
+
 }
 
 button {
     width: 150px;
     height: 30px;
     align-content: center;
-    margin-left: 60px
+    margin: auto;
 }
 
-p {
-    margin: 10px 0px 10px 5px;
-    text-emphasis-color: red;
-     
+div {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5%;
+    /*(margin: 10px 0px 10px 5px;)*/
 }
+
+.Logo {
+     background-color: rgba(255, 170, 170, 0.3);
+    
+    height: 25%;
+    width: auto;
+    border-radius: 8%;
+}
+
+
+/*
+
+Essas linhas abaixo serve para fazer a coloração do que está ou não disponivel, caso queira trocar, pode-se ir no arquivo "main.js" e alterar o que está ou não disponivel. Aqui poderá ser trocado as cores e o delay.
+
+*/
 
 .HoverPos:hover {
-    color: lime;
+    width: 120px;
+    background-color: lime;
+    /*font-family: sans-serif;*/
+    /*color: lime;*/
 }
 
 .HoverNeg:hover {
-    color: red;
+    width: 120px;
+    background-color: red;
+    /*font-family: sans-serif;*/
+    /*color: red;*/
 }
 
 .Pos {
@@ -34,15 +60,32 @@ p {
 }
 
 @keyframes color-pos {
-    0% {color: black}
-    50% {color: lime}
-    100% {color: black}
-    
+    0% {
+        color: black
+    }
+
+    50% {
+        color: lime
+    }
+
+    100% {
+        color: black
+    }
+
 }
 
 @keyframes color-neg {
-    0% {color: black}
-    50% {color: red}
-    100% {color: black}
-    
+    0% {
+        color: black
+    }
+
+    50% {
+        color: red
+    }
+
+    100% {
+        color: black
+    }
+
 }
+/* v. SNAPSHOT 0.4 */
