@@ -1,56 +1,87 @@
 <!DOCTIPE HTML>
-    <meta charset="utf-8">
-    <html>
-    <title>Cosulta de preço</title>
-    <link rel="stylesheet" href="css/estilo.css">
+	<meta charset="utf-8">
+	<html>
+	<title>Cosulta de preço</title>
+	<link rel="stylesheet" href="css/estilo.css">
 
-    <head>
-        <div>
-            <img src="img/lgGG00.png" ; class="Logo" ;>
-            <h1>Consulta de preço.</h1>
-        </div>
-    </head>
+	<head>
+		<div class="ts" ;>
+			<img src="img/lgGG00.png" ; class="Logo" ;>
+			<h1 class="Ts">Consulta de preço.</h1>
+		</div>
+	</head>
 
-    <body>
+	<body>
+		<div>
+			<span>
+				<input id="phones" ; autocomplete="mobile.txt" ; placeholder="Modelo do Telefone" ;>
+				<div>
+					<button onclick="getTextFromInput()" ; accesskey="enter">Verificar.</button>
+				</div>
+			</span>
+		</div>
 
-        
-        
-        <div>
-            
-        </div>
-        
-        <div class="borda" ; class="HoverPos">
-            <input id="phones" ; autocomplete="mobile" ; placeholder="Modelo do Telefone" ;>
-            <div>
-                <button onclick="getTextFromInput()">Verificar.</button>
-            </div>
-        </div>
-        
-        
-        <form class="borda">
-            <div id="tUm" ;>
-                <input type="checkbox" ; id="zUm" ;>Tela.
-            </div>
-            <div id="tDois" ;>
-                <input type="checkbox" ; id="zDois">Bateria.
-            </div>
-            <div id="tTres" ;>
-                <input type="checkbox" ; id="zTres">Botão home.
-            </div>
-            <div id="tQuatro" ;>
-                <input type="checkbox" ; id="zQuatro">Câmera.
-            </div>
-            <div id="tCinco" ;>
-                <input type="checkbox" ; id="zCinco">Placa.
-            </div>
-            <div>
-                <h2 id="total" ;>R$ 0</h2>
 
-            </div>
-        </form>
+		<form class="borda">
+			<span>
+				<div id="tUm" ;>
+					<input type="checkbox" ; id="zUm" ;>Tela.
+				</div>
 
-        <script src="js/main.js"></script>
+				<div id="tDois" ;>
+					<input type="checkbox" ; id="zDois">Bateria.
+				</div>
 
-    </body>
-    <!- v. SNAPSHOT 0.4 -!>
-    </html>
+				<div id="tTres" ;>
+					<input type="checkbox" ; id="zTres">Botão home.
+				</div>
+				<div id="tQuatro" ;>
+					<input type="checkbox" ; id="zQuatro">Câmera frontal.
+				</div>
+				<div id="tCinco" ;>
+					<input type="checkbox" ; id="zCinco">Placa.
+				</div>
+				<div id="tSeis" ;>
+					<input type="checkbox" ; id="zSeis">Câmera traseira.
+				</div>
+				<div id="tSete" ;>
+					<input type="checkbox" ; id="zSete">Conector de carga.
+				</div>
+				<div id="tOito" ;>
+					<input type="checkbox" ; id="zOito">Microfone.
+				</div>
+				<div id="tNove" ;>
+					<input type="checkbox" ; id="zNove">Alto falante.
+				</div>
+				<div id="tDez" ;>
+					<input type="checkbox" ; id="zDez">Alto falante auricular.
+				</div>
+				<div id="tOnze" ;>
+					<input type="checkbox" ; id="zOnze">Tampa trasera.
+				</div>
+				<div id="tDoze" ;>
+					<input type="checkbox" ; id="zDoze">Conector de fone.
+				</div>
+				<div id="tTreze" ;>
+					<input type="checkbox" ; id="zTreze">Antena.
+				</div>
+				<div id="tCatorze" ;>
+					<input type="checkbox" ; id="zCatorze">Leitor de chip.
+				</div>
+				<div id="tQuinze" ;>
+					<input type="checkbox" ; id="zQuinze">Sensor de proximidade.
+				</div>
+
+			</span>
+			<div>
+				<h2 id="total" ;>R$ 0</h2>
+
+			</div>
+		</form>
+
+		<script src="js/main.js"></script>
+
+	</body>
+	<!- v. SNAPSHOT 0.5 -!>
+
+	</html>

@@ -1,35 +1,69 @@
 body {
-    background-repeat: repeat;
-    background-image: url(./img/backGG01.png);
-    margin-right: 50%;
+	background-repeat: repeat;
+	background-image: url(/img/backGG01.png);
+
 }
 
 .borda {
-    border: 1px solid;
+	border: 1px solid;
+}
 
+span {
+	width: 180px;
+	display: inline-block;
 }
 
 button {
-    width: 150px;
-    height: 30px;
-    align-content: center;
-    margin: auto;
+	width: 150px;
+	height: 30px;
+	align-content: center;
+	margin: auto;
 }
 
 div {
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 5%;
-    /*(margin: 10px 0px 10px 5px;)*/
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 3%;
+	/*(margin: 10px 0px 10px 5px;)*/
 }
 
 .Logo {
-     background-color: rgba(255, 170, 170, 0.3);
-    
-    height: 25%;
-    width: auto;
-    border-radius: 8%;
+	background-color: rgba(255, 170, 170, 0.3);
+
+	height: 25%;
+	width: auto;
+	border-radius: 8%;
 }
 
+.Ts:hover {
+	animation: corLed 2s infinite;
+}
+
+@keyframes corLed {
+	0% {
+		color: #000;
+	}
+
+	25% {
+		color: #a00;
+	}
+
+	50% {
+		color: #0a0;
+	}
+
+	75% {
+		color: #00a;
+	}
+
+	100% {
+		color: #000;
+	}
+}
+
+
+form {
+	display: inline-block;
+}
 
 /*
 
@@ -38,54 +72,55 @@ Essas linhas abaixo serve para fazer a coloração do que está ou não disponiv
 */
 
 .HoverPos:hover {
-    width: 120px;
-    background-color: lime;
-    /*font-family: sans-serif;*/
-    /*color: lime;*/
+	width: auto;
+	background-color: lime;
+	/*font-family: sans-serif;*/
+	/*color: lime;*/
 }
 
 .HoverNeg:hover {
-    width: 120px;
-    background-color: red;
-    /*font-family: sans-serif;*/
-    /*color: red;*/
+	width: auto;
+	background-color: red;
+	/*font-family: sans-serif;*/
+	/*color: red;*/
 }
 
 .Pos {
-    animation: color-pos 1.5s linear;
+	animation: color-pos 1.5s linear;
 }
 
 .Neg {
-    animation: color-neg 1.5s linear;
+	animation: color-neg 1.5s linear;
 }
 
 @keyframes color-pos {
-    0% {
-        color: black
-    }
+	0% {
+		color: black
+	}
 
-    50% {
-        color: lime
-    }
+	50% {
+		color: lime
+	}
 
-    100% {
-        color: black
-    }
+	100% {
+		color: black
+	}
 
 }
 
 @keyframes color-neg {
-    0% {
-        color: black
-    }
+	0% {
+		color: black
+	}
 
-    50% {
-        color: red
-    }
+	50% {
+		color: red
+	}
 
-    100% {
-        color: black
-    }
+	100% {
+		color: black
+	}
 
 }
-/* v. SNAPSHOT 0.4 */
+
+/* v. SNAPSHOT 0.5 */
